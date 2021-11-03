@@ -1,0 +1,991 @@
+@media (max-width:350px){
+
+    section{
+        width: 100%;
+    }
+    header{
+        position: relative;
+    }
+    header .top{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        display: block;
+
+    }
+    header .top .logo{
+        display: none;
+    }
+    .top-bg ul{
+        display: none;
+    }    
+    .menu{
+        display: none;
+    }
+    
+    header .nav{
+        display: block;
+    }
+    
+    .navBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 0;
+      }
+      .iconBtn {
+        width: 35px;
+        cursor: pointer;
+      }
+      .menuWrap.on {
+        right: 0;
+      }
+      .menuWrap {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        z-index: 400;
+
+        height: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        transition: right 0.3s ease-in-out;
+        background-color: #f0f0f0;
+      }
+
+      .menuWrap .menu ul li a{
+        color: black;
+    }
+      #menuBtn {
+        width: 35px;
+        z-index: 401;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding-right: 5px;
+      }
+      #dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .btnRotate {
+        transform: rotate(-90deg);
+        transition: all 0.3s ease-in-out;
+      }
+      section .pr{
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          border-bottom: none;
+      }
+      section .a2{
+          margin-bottom: 5vw;
+      }
+      section .a2 p{
+          display: block;
+          font-size:5vw;
+          margin-bottom: 1vw;
+          font-weight: 800;
+          text-align: left;
+      }
+
+      .pr .pro img{
+        display: none;
+        width: 10.4vw;
+        height: 10.4vw;
+      }
+
+      section .pr .a2{
+          margin-left: 5vw;
+   
+      }
+      .a2 img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw;
+        height: 100%;
+    }
+    section .a3{
+        clear: both;
+        width: 100%;
+        text-align: center;}
+
+        section .a3 .te{
+            display: inline;
+            position: relative;
+            top: 20vw;
+            border-bottom: none;
+            left: 23vw;
+        
+        }
+        
+
+        .a3 .te .t1{
+           display: none;
+        }
+        .a3 .te .t2{
+            display: none;
+        }
+        
+        .a3 .te .t3 a{
+            display: none;
+        
+        }
+        .a3 .te .t3 span{
+            display: none;
+        }
+    .a3 .te .t4{
+        
+        display: inline;
+        color: #d96767;
+        font-weight: 600;
+        margin: 0.5vw 0;
+        font-size: 3.5vw;
+       
+    }
+    .buy{
+        width: 100%;
+    }
+    .buy .color{
+        width: 100%;
+        height: 25vw;
+    }
+ 
+    .buy .color .colorl ul li{
+        margin-right: 5vw;
+    }
+    .buy .color .colorl ul .co1{
+        width: 8.4vw;
+        height: 8.4vw;
+
+    }
+    .buy .color .colorl ul .co2{
+        width: 8.4vw;
+        height: 8.4vw;
+
+    }
+    .buy .color .colorl ul .co3{
+        width: 8.4vw;
+        height: 8.4vw;
+    
+    }
+    .buy .color .colorl ul .co4{
+        width: 8.4vw;
+        height: 8.4vw;
+      
+    }
+    .buy .color .colorl ul .co5{
+        width: 8.4vw;
+        height: 8.4vw;
+        
+    }
+    .buy .color .colorl ul .co6{
+        width: 8.4vw;
+        height: 8.4vw;
+       
+    }
+    .buy .color .color2{
+        width: 100%;
+        margin-left: 5vw;
+        margin-bottom: 1.8vw;
+        text-align: left;
+      
+    
+    }
+    .buy .color .color2 #class{
+        width: 50%;
+        height: 8vw;
+        font-weight: bold;
+        font-size:0.83vw;
+        padding-left: 1vw;
+    }
+    .buy .color .ku{
+        width:100%;
+        display: none;
+    
+      
+    }
+    .buy .color .ku p{
+        font-size: 1.04vw;
+        color: rgb(49, 49, 49);
+        font-weight: 700;
+        text-align: center;
+        display: inline;
+        margin-left: 58.5px;
+    
+        
+    }
+    .buy .color .ku .spinner{
+        display: flex;
+        float: right;
+        margin-right: 1.7vw;
+    
+    }
+    .buy .color .ku .spinner button{
+        width: 1.4vw;
+        height: 1.4vw;
+    }
+    .buy .color .ku .spinner input{
+        width: 2.5vw;
+        height: 1.4vw;
+    }
+    .buy .color3{
+
+        display: none;
+    }
+
+
+
+
+
+    .note{
+        width: 100%;
+        height: 400vw;
+        padding: 2vw;
+    }
+    .note .no2{
+        width: 100%;
+    }
+    .note .no2 video{
+        width: 96vw;
+        height: 60vw;
+       padding: 0;
+    }
+    
+    .note .no3 .sup1 {
+        width: 100vw;
+    padding:0;
+}
+.note .no3 .sup2 .s-i1 img{
+    width: 96vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.note .no3 .sup2 .s-i2 img{
+    display: none;
+}
+.note .no3 .sup2 .sup2-1 span{
+    display: none;
+ 
+ }
+ 
+ .note .no3 .sup2 .sup2-1 p{
+    display: none;
+  }
+  .note .no3 .sup3 .s-i3{
+      width: 100%;
+   float: left;
+  }
+  .note .no3 .sup3 .s-i3 img{
+      width: 96vw;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.note .no3 .sup3 .s-i4 img{
+display: none;
+}
+.note .no3 .sup3 .sup2-2 span{
+    display: none;
+}
+.note .no3 .sup3 .sup2-2 p{
+    display: none;
+ 
+ }
+ .note .not3 .hand{
+     padding: 0;
+ }
+ .note .not3 .rips{
+     width: 100%;
+     height: 100vw;
+ }
+ .note .not3 .rip span{
+    font-size: 1.35vw;
+    line-height: 6vw;
+    font-weight: bold;
+    color: black;
+
+ }
+ .note .not3 .rip p{
+    font-size: 1.04vw;
+    font-weight: 600;
+    color:rgb(81, 81, 81);
+
+}
+ .note .not3 .rips .rips1{
+    margin: 0;
+ }
+ .note .not3 .rips .rips1 img{
+    width: 70vw; 
+  
+}
+.note .not3 .rips .rips2 .rip3 img{
+    display: none;
+  }
+  .note .not3 .rips .rips2 .rip4 img{
+  display: none;
+  }
+
+
+footer {
+    clear: both;
+    margin: 0;
+    width: 100%;
+    height: 40vw;
+    position: relative;
+  
+}
+footer .tt{
+    margin: 0 2vw;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+footer .text{
+    margin-top: 2vw;
+    width: 100%;
+    height: 3vw;
+    /* float: left; */
+    margin-right: 3vw;
+    
+    
+}
+footer .foot{
+    background-color: white;
+}
+footer .foot .first{
+    padding-top: 2vw;
+    padding-left: 36vw;
+    line-height: 3.3vw;
+    
+    }
+
+    footer .text p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+.foot .first li a{
+    color:black;
+    font-weight:bold;
+    font-size:  0.3vw;
+   
+}
+footer .lo{
+    clear: both;
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center;
+    float: left;
+    bottom: 0;
+}
+
+footer .lo img{
+    width: 30%;
+   position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+}
+section .in{
+    text-align: center;
+}
+footer .lo p{
+    display: block;
+    position:absolute;
+    bottom: 0;
+    margin: auto;
+
+}
+}
+@media only screen and (min-width: 351px) and (max-width: 750px){
+    html{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        height: 620vw;
+    }
+    header{
+        position: relative;
+    }
+    header .top{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        display: block;
+
+    }
+    header .top .logo{
+        display: none;
+    }
+    .top-bg ul{
+        display: none;
+    }    
+    .menu{
+        display: none;
+    }
+    
+    header .nav{
+        display: block;
+    }
+    
+    .navBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 0;
+      }
+      .iconBtn {
+        width: 35px;
+        cursor: pointer;
+      }
+      .menuWrap.on {
+        right: 0;
+      }
+      .menuWrap {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        z-index: 400;
+
+        height: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        transition: right 0.3s ease-in-out;
+        background-color: #f0f0f0;
+      }
+
+      .menuWrap .menu ul li a{
+        color: black;
+    }
+      #menuBtn {
+        width: 35px;
+        z-index: 401;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding-right: 5px;
+      }
+      #dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .btnRotate {
+        transform: rotate(-90deg);
+        transition: all 0.3s ease-in-out;
+      }
+      section .pr{
+          width: 100%;
+          border-bottom: none;
+      }
+      section .pr .pro {
+          margin-top: 6vw;
+      }
+      .pr .pro img{
+        width:80%;
+        height:80%;
+
+    }
+
+      section .a2 p{
+        display: block;
+        font-size:4vw;
+        margin-bottom: 1vw;
+        font-weight: 800;
+        text-align: left;}
+        section .a2{
+            display: inline;
+            width: 70%;
+            float:none;
+        
+        }
+        .a2 img{
+            width: 60%;
+            position: relative;
+            top: -1vw;
+    
+    
+        }
+
+      section .a3{
+          width: 100%;
+      }
+      .buy .color{
+    
+          width: 100%;
+      }
+      .buy{
+        width: 100%;
+    }
+    .buy .color{
+        width: 100%;
+        height: 25vw;
+    }
+    .buy .color .colorl{
+        width: 100%;
+    }
+    .buy .color .colorl ul{
+        width: 100%;
+        margin: 0 10vw;
+    }
+    .buy .color .colorl ul li{
+        margin-right: 5vw;
+    }
+    .buy .color .colorl ul .co1{
+        width: 8.4vw;
+        height: 8.4vw;
+
+    }
+    .buy .color .colorl ul .co2{
+        width: 8.4vw;
+        height: 8.4vw;
+
+    }
+    .buy .color .colorl ul .co3{
+        width: 8.4vw;
+        height: 8.4vw;
+    
+    }
+    .buy .color .colorl ul .co4{
+        width: 8.4vw;
+        height: 8.4vw;
+      
+    }
+    .buy .color .colorl ul .co5{
+        width: 8.4vw;
+        height: 8.4vw;
+        
+    }
+    .buy .color .colorl ul .co6{
+        width: 8.4vw;
+        height: 8.4vw;
+       
+    }
+    .buy .color .color2{
+        width: 100%;
+        margin: 4vw 10vw;
+        text-align: left;
+      
+    
+    }
+    .buy .color .color2 #class{
+        width: 50%;
+        height: 7vw;
+        font-weight: bold;
+        font-size:2vw;
+        padding-left: 1vw;
+    }
+    .buy .color .ku{
+        display: none;
+    }
+    .color3{
+        display: none;
+    }   
+    .note .no1 ul li a{
+        font-size: 3vw;
+    }
+    section .a3 .te{
+        display: inline;
+        position: relative;
+        top: 21vw;
+        border-bottom: none;
+        left: 63vw;
+    
+    }
+    
+
+    .a3 .te .t1{
+       display: none;
+    }
+    .a3 .te .t2{
+        display: none;
+    }
+    
+    .a3 .te .t3 a{
+        display: none;
+    
+    }
+    .a3 .te .t3 span{
+        display: none;
+    }
+.a3 .te .t4{
+    letter-spacing: -0.3vw;
+    display: inline;
+    color: #d96767;
+    font-weight: 600;
+    margin: 0.5vw 0;
+    font-size: 3.5vw;
+   
+}
+    .note .not3 .rips{
+        width: 100%;
+        
+    }
+    .note .not3 .rip{
+        padding-bottom: 2vw;
+        line-height: 4vw;
+    }
+    .note .not3 .rips .rips2 {
+        position: absolute;
+        right: -70vw;
+        top: 1vw;
+    }
+    .note .not3 .rips .rips1{
+        left: 0;
+        top: 0;
+        margin-left:0;
+    }
+    .note .not3 .rips .rips1 img{
+        width: 50%;
+        height: auto;
+    }
+    .note .not3 .rips .rips2 .rip3{
+       
+        top: 5vw;
+        
+
+    }
+    .note .not3 .rips .rips2 .rip3 img{
+        width: 28%;
+        height: 100%;
+      
+      }
+      .note .not3 .rips .rips2 .rip4 img{
+        width:30%;
+        height: 100%;
+      
+      }
+      /* .note .not3 .rips .rips2{
+        display: none;
+      
+    } */
+    footer {
+        clear: both;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: 23vw;
+    
+      
+    }
+    footer .tt{
+        margin: 0 2vw;
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+    footer .text{
+        margin-top: 2vw;
+        width: 100%;
+        height: 3vw;
+        /* float: left; */
+        margin-right: 3vw;
+        
+        
+    }
+    footer .foot{
+        background-color: white;
+    }
+    footer .foot .first{
+        padding-top: 1vw;
+        padding-left: 25vw;
+        line-height: 3.3vw; 
+        
+        }
+
+        footer .text p{
+            font-size: 0.5vw;
+            font-weight: 600;
+        }
+
+    .foot .first li a{
+        color:black;
+        font-weight:bold;
+        font-size:  1.6vw;
+       
+    }
+    footer .lo{
+        clear: both;
+        width: 100%;
+        /* margin: 0 auto; */
+        height: 5vw;
+        text-align: center;
+        float: left;}
+    footer .lo img{
+        width: 20%;
+       position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 10px;
+    }
+    footer .lo p{
+        display: block;
+        position:absolute;
+        bottom: 0;
+        margin: auto;}
+    
+        .note{
+            width: 100%;
+            height: 400vw;
+            padding: 2vw;
+        }
+        .note .no2{
+            width: 100%;
+        }
+        .note .no2 video{
+            width: 96vw;
+            height: 60vw;
+           padding: 0;
+        }
+        .note .no3 .sup1 {
+            width: 100vw;
+        padding:0;
+        z-index: 999;
+    }
+    .note .no3 .sup1 span{
+        font-size: 4vw;
+        font-weight: bold;
+        color: black;
+    }
+    .note .no3 .sup1 p{
+        font-size: 2.5vw;
+        font-weight: 700;
+        color:rgb(81, 81, 81)
+    }
+    .note .no3 .sup2 .s-i1 img{
+        width: 96vw;
+        height: 100%;
+        box-sizing: border-box;
+        z-index: 4;
+    }
+    
+    .note .no3 .sup2 .s-i2 img{
+        width: 96vw;
+        height: 100%;
+        box-sizing: border-box;
+        /* margin-top: 5vw; */
+        padding-top:5vw;
+    }
+      .note .no3 .sup3 .s-i3{
+          width: 100%;
+       float: left;
+      }
+      .note .no3 .sup3 .s-i3 img{
+          width: 96vw;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .note .no3 .sup3 .s-i4 img{
+        width: 96vw;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 5vw;
+  }
+  .note .no3 .sup2 .sup2-1 span{
+    font-size: 5vw;
+    font-weight: bold;
+    color: coral;
+    line-height: 2.5vw;
+    margin-top: 1vw;
+    display: inline-block;
+  margin-bottom: 0.5vw;
+  letter-spacing:0.104;
+ 
+ }
+ .note .no3 .sup2 .sup2-1 p{
+ display: none; 
+  
+  }
+
+  .note .no3 .sup3 .sup2-2 span{
+      display: block;
+    font-size:5vw;
+    font-weight: bold;
+    color: coral;
+    line-height: 2.5vw;
+    margin-top: 1vw;
+    display: inline-block;
+  margin-bottom: 0.5vw;
+  letter-spacing:0.104vw;
+ z-index: 9999;
+}
+.note .no3 .sup3 .sup2-2 p{
+display: none; 
+ 
+ }
+ .note .not3 .hand span{
+    font-size: 4vw;
+    font-weight: bold;
+    color: black;
+}
+.note .not3 .hand p{
+    font-size: 2.5vw;
+    font-weight: 700;
+    color:rgb(81, 81, 81)
+}
+.note .not3 .hand-col ul .co1{
+    width: 5vw;
+    height: 5vw;
+    background-color: #e93146;
+}
+.note .not3 .hand-col ul .co2{
+    width: 5vw;
+    height: 5vw;
+    background-color: #ffa89b;
+}
+.note .not3 .hand-col ul .co3{
+    width: 5vw;
+    height: 5vw;
+    background-color: #e84e50;
+}
+.note .not3 .hand-col ul .co4{
+    width: 5vw;
+    height: 5vw;
+    background-color: #bb304b;
+}
+.note .not3 .hand-col ul .co5{
+    width: 5vw;
+    height: 5vw;
+    background-color: #f83b3a;
+}
+.note .not3 .hand-col ul .co6{
+    width: 5vw;
+    height: 5vw;
+    background-color:#9e0033;
+}
+.note .not3 .hand-col ul li:hover{
+    border: 3px solid black;
+}
+.note .not3 .hand-col ul li{
+    margin-right: 3vw;
+}
+.note .not3 .rip span{
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+
+ }
+ .note .not3 .rip p{
+    font-size: 2vw;
+    font-weight: 600;
+    color:rgb(81, 81, 81);
+
+}
+
+
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1250px){
+    section .a2{
+        display: inline;
+        width: 70%;
+        float:none;
+    
+    }
+    .a2 img{
+        width: 30%;
+        position: relative;
+        top: -1vw;
+
+
+    }
+    .pr .pro img{
+        width:60%;
+      
+    }
+    .pr .pro {
+        margin-right: 0;
+    
+        
+    }
+    section .a3{
+        width: 18vw;
+        margin-left: 1vw;
+       
+     
+    }
+    .note .not3 .rips .rips2 {
+        position: absolute;
+        right: -15vw;
+        top: 0;
+    }
+    .note .not3 .rips .rips1{
+        left: 0;
+        top: 0;
+        margin-left:0;
+    }
+    .note .not3 .rips .rips1 img{
+        width: 70%;
+        height: auto;
+    }
+    .note .not3 .rips .rips2 .rip3{
+        top: 0;
+    }
+    .note .not3 .rips .rips2 .rip3 img{
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+      }
+      .note .not3 .rips .rips2 .rip4 img{
+        width: 62.5%;
+        height: 100%;
+        display: inline-block;
+      }
+      .note .not3 .rips .rips2 .rip3{
+        margin-bottom: 1vw;
+    }
+    
+}
+@media (min-width:1250px){
+    .pr .pro img{
+        width:80%;
+
+    }
+    .a2 img{
+        width: 100%;
+    }
+    section .a2{
+        width: 40%;
+        
+    }
+    .note .not3 .rips .rips1{
+        margin-left: 1vw;
+    }
+    .note .not3 .rips .rips1 img{
+        width: 90%;
+      
+    }
+    .note .not3 .rips .rips2 {
+        position: absolute;
+        /* right: -6vw;
+        top: 4vw; */
+    }
+    .note .not3 .rips .rips2 .rip3 img{
+        width: 98%;
+        height: 100%;
+        display: inline-block;
+      }
+      .note .not3 .rips .rips2 .rip4 img{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+      }
+
+}

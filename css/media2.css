@@ -1,0 +1,652 @@
+@media (max-width:350px){
+
+    
+
+
+    header{
+        position: relative;
+    }
+    header .top{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        display: block;
+
+    }
+    header .top .logo{
+        display: none;
+    }
+    .top-bg ul{
+        display: none;
+    }    
+    .menu{
+        display: none;
+    }
+    
+    header .nav{
+        display: block;
+    }
+    section{
+        padding: 0 10px;
+    }
+    
+    .navBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 0;
+      }
+      .iconBtn {
+        width: 35px;
+        cursor: pointer;
+      }
+      .menuWrap.on {
+        right: 0;
+      }
+      .menuWrap {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        z-index: 400;
+
+        height: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        transition: right 0.3s ease-in-out;
+        background-color: #f0f0f0;
+      }
+
+      .menuWrap .menu ul li a{
+        color: black;
+    }
+      #menuBtn {
+        width: 35px;
+        z-index: 401;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding-right: 5px;
+      }
+      #dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .btnRotate {
+        transform: rotate(-90deg);
+        transition: all 0.3s ease-in-out;
+      }
+    
+      section{
+        width: 100%;
+    
+    }
+    aside{
+   
+        width: 100%;
+
+        padding: 10px;
+        margin: 0;
+
+     
+    
+    }
+    aside p{
+        display: block;
+        text-align: left;
+        margin-bottom: 2.9vw;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    aside .asi .a{
+        width: 40vw;
+        height: 8vw;
+    }
+
+    aside .asi .a p{
+        line-height: 8vw;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 2vw;
+    }
+    aside .asi .b{
+        width: 40vw;
+        height: 8vw;
+    }
+    aside .asi .b p{
+        line-height: 8vw;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 2vw;
+    }
+    section .pro{
+        width: 100%; 
+      
+        
+    }
+    section .pro h1{
+       display: none;
+    }
+    .pro .cat ul{
+        height: 10vw;
+        text-align: right;
+        border: 1px solid  #555;
+        
+    }
+    .pro .cat ul li{
+        margin-right: 5vw;
+    }
+    .pro .cat ul li a{ 
+        font-size: 3vw;
+        line-height: 10vw;
+    }
+    .pro .cat ul li span{
+        color: #b34832;
+        font-size: 3vw;
+        font-size: 0.73vw;
+        line-height: 10vw;
+    }
+    .pro .pi{
+        text-align:center;
+        margin-left: 10vw;
+    }
+
+    .pro .pi .it img{
+        
+        display : inline;}
+
+
+        .pro .pi .it span{
+            text-align: center;
+            color: rgb(104, 104, 104);
+            line-height: 0.26vw;
+            font-weight: 700;
+            font-size: 5vw;
+        
+        }
+        .pro .pi .it p{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size: 5vw;
+            padding-bottom: 0.52vw;
+            font-weight: 700;
+        }
+        .pro .pi .it .p{    
+            text-align: center;
+            color: black;
+            font-weight: 600;
+            font-size: 5vw;
+        
+        }
+
+        .numb{
+            width: 100%;
+            margin-bottom: 3vw;
+            text-align: right;
+        }
+        .numb .n2{
+            width: 20%;
+            display: none;
+        }
+        footer {
+            position: relative;
+            margin: 0;
+            width: 100%;
+            height: 40vw;
+            position: relative;
+          
+        }
+        footer .tt{
+            margin: 0 2vw;
+            width: 100%;
+            margin-left: 10px;
+            
+        }
+        footer .text{
+            margin-top: 2vw;
+            width: 100%;
+            height: 3vw;
+            /* float: left; */
+            margin-right: 3vw;
+            
+            
+        }
+        footer .foot{
+            background-color: white;
+        }
+        footer .foot .first{
+            padding-top: 2vw;
+            padding-left: 36vw;
+            line-height: 3.3vw;
+            
+            }
+    
+            footer .text p{
+                font-size: 10px;
+                font-weight: 600;
+            }
+    
+        .foot .first li a{
+            color:black;
+            font-weight:bold;
+            font-size:  0.3vw;
+           
+        }
+        footer .lo{
+            clear: both;
+            width: 100%;
+            /* margin: 0 auto; */
+            text-align: center;
+            float: left;
+    }
+    
+        footer .lo img{
+            width: 30%;
+           position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 10px;
+        }
+        section .in{
+            text-align: center;
+        }
+
+
+
+}
+
+@media only screen and (min-width: 351px) and (max-width: 750px){
+
+
+
+    header{
+        position: relative;
+    }
+    header .top{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        display: block;
+
+    }
+    header .top .logo{
+        display: none;
+    }
+    .top-bg ul{
+        display: none;
+    }    
+    .menu{
+        display: none;
+    }
+    
+    header .nav{
+        display: block;
+    }
+    section{
+        padding: 0 3vw;
+    }
+    
+    .navBox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 0;
+      }
+      .iconBtn {
+        width: 35px;
+        cursor: pointer;
+      }
+      .menuWrap.on {
+        right: 0;
+      }
+      .menuWrap {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        z-index: 400;
+
+        height: 100%;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        transition: right 0.3s ease-in-out;
+        background-color: #f0f0f0;
+      }
+
+      .menuWrap .menu ul li a{
+        color: black;
+    }
+      #menuBtn {
+        width: 35px;
+        z-index: 401;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        padding-right: 5px;
+      }
+      #dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .btnRotate {
+        transform: rotate(-90deg);
+        transition: all 0.3s ease-in-out;
+      }
+    
+      section{
+        width: 100%;
+    
+    }
+    aside{
+   
+        width: 100%;
+
+        padding: 3vw;
+        margin: 0;
+
+     
+    
+    }
+    aside p{
+        display: block;
+        text-align: left;
+        margin-bottom: 2.9vw;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    aside .asi .a{
+        width: 40vw;
+        height: 8vw;
+    }
+
+    aside .asi .a p{
+        font-size: 3vw;
+        line-height: 8vw;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 2vw;
+    }
+    aside .asi .b{
+        width: 40vw;
+        height: 8vw;
+    }
+    aside .asi .b p{
+        font-size: 3vw;
+        line-height: 8vw;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 2vw;
+    }
+    section .pro{
+        width: 100%; 
+      
+        
+    }
+    section .pro h1{
+       display: none;
+    }
+    .pro .cat ul{
+        height: 10vw;
+        text-align: right;
+        border: 1px solid  #555;
+        
+    }
+    .pro .cat ul li{
+        margin-right: 5vw;
+    }
+    .pro .cat ul li a{ 
+        font-size: 3vw;
+        line-height: 10vw;
+    }
+    .pro .cat ul li span{
+        color: #b34832;
+        font-size: 3vw;
+        font-size: 3vw;
+        line-height: 10vw;
+    }
+    .pro .pi{
+        width: 100%;
+        text-align:center;}
+
+        .pro .pi .it{
+            width: 47%;
+            float: left;
+        }
+
+
+    .pro .pi .it img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+        .pro .pi .it span{
+            text-align: center;
+            color: rgb(104, 104, 104);
+            line-height: 0.26vw;
+            font-weight: 700;
+            font-size: 3vw;
+        
+        }
+        .pro .pi .it p{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            font-size:3.5vw;
+            padding-bottom: 0.52vw;
+            font-weight: 700;
+        }
+        .pro .pi .it .p{    
+            text-align: center;
+            color: black;
+            font-weight: 600;
+            font-size: 3vw;
+        
+        }
+
+        
+
+        .numb{
+            width: 100%;
+            margin-bottom: 3vw;
+            text-align: right;
+        }
+        .numb .n2{
+            width: 20%;
+            display: none;
+        }
+        .numb .num ul li a{
+            font-size: 3vw;
+        }
+
+
+        footer {
+            position: relative;
+            margin: 0;
+            width: 100%;
+            height: 25vw;
+            position: relative;
+          
+        }
+        footer .tt{
+            margin: 0 2vw;
+            width: 100%;
+            margin-left: 10px;
+            
+        }
+        footer .text{
+            margin-top: 2vw;
+            width: 100%;
+            height: 3vw;
+            /* float: left; */
+            margin-right: 3vw;
+            
+            
+        }
+        footer .foot{
+            background-color: white;
+        }
+        footer .foot .first{
+            padding-top: 2vw;
+            padding-left: 36vw;
+            line-height: 3.3vw;
+            
+            }
+    
+            footer .text p{
+                font-size: 10px;
+                font-weight: 600;
+            }
+    
+        .foot .first li a{
+            color:black;
+            font-weight:bold;
+            font-size:2.5vw;
+           
+        }
+        footer .lo{
+            clear: both;
+            width: 100%;
+            /* margin: 0 auto; */
+            text-align: center;
+            float: left;
+    }
+    footer .lo p{
+        font-size: 2vw;
+    }
+        footer .lo img{
+            width: 30%;
+           position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 10px;
+        }
+        section .in{
+            text-align: center;
+        }
+
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1250px){
+    .menu ul li a{
+        font-weight: 600;
+    }
+    .top-bg ul li a{
+        font-weight: 600;
+    }
+    aside{
+        margin-top: 12vw;
+        margin-left: 5vw;
+    }
+    aside .asi{
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+    }
+    aside .asi .a{
+        width: 15vw;
+        height: 5vw;
+   
+    }
+    aside .asi .b{
+        width: 15vw;
+        height: 5vw;
+    }
+    aside .asi p{
+        line-height: 5vw;
+  
+        font-size: 1.3vw;
+    }
+    
+    section{
+        width: 70%;
+    }
+    section .pro {
+    padding-top: 5vw;
+    width: 100%;
+    padding-right: 5vw;
+}
+section .pro h1{
+    font-size: 3vw;
+}
+
+ .pro .cat ul{
+     height: 5vw;
+     text-align: right;
+     border: 1px solid  #555;
+     margin: 0;
+     
+ }
+    .pro .cat ul li{
+     margin-right: 2vw;
+ }
+    .pro .cat ul li a{ 
+     line-height: 5vw;
+     font-size: 1.5vw;
+   
+ }
+    .pro .cat ul li span{
+    line-height: 5vw;
+     color: #b34832;
+     font-size: 1.5vw;
+   
+ }
+    .pro .pi{
+    width: 100%;
+    text-align:center;}
+
+    .pro .pi .it{
+        width: 30%;
+        float: left;
+    }
+
+
+    .pro .pi .it img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .numb{
+    padding-right: 5vw;
+    width: 100%;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+    .numb .num ul li a{
+    font-size: 1.5vw;
+}
+.numb .n2 a{
+    font-size: 1.3vw;
+}
+
+
+}
+
+@media (min-width:1250px){
+    .pro .pi{
+        width: 100%;
+        text-align:center;}
+    
+        .pro .pi .it{
+            width: 14.6vw;
+            float: left;
+        }
+}
